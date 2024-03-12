@@ -1,4 +1,4 @@
-module google.golang.org/api
+module github.com/caleberi/google-api-go-client
 
 go 1.19
 
