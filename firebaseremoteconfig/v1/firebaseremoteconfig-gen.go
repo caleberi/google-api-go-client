@@ -446,7 +446,7 @@ func (c *ProjectsGetRemoteConfigCall) doRequest(alt string) (*http.Response, err
 	var body io.Reader = nil
 	c.urlParams_.Set("alt", alt)
 	c.urlParams_.Set("prettyPrint", "false")
-	urls := googleapi.ResolveRelative(c.s.BasePath, "v1/{+project}/remoteConfig")
+	urls := googleapi.ResolveRelative(c.s.BasePath, "v1/projects/{+project}/remoteConfig")
 	urls += "?" + c.urlParams_.Encode()
 	req, err := http.NewRequest("GET", urls, body)
 	if err != nil {
